@@ -118,8 +118,4 @@ Consumer runs on 👉 `http://localhost:9091`
 3. Commit your changes 🔥
 4. Open a Pull Request 🚀
 
----
-
 ✨ *Happy Event Tracking!* 🚀
-
-```
