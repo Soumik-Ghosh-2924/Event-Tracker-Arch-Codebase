@@ -1,10 +1,4 @@
-Perfect 👍 Since you’re combining **React UI + Kafka Producer + Kafka Consumer** into a single monorepo, the `README.md` should:
-
-1. Clearly explain the project architecture.
-2. Provide instructions for setup & running each component.
-3. Look creative yet professional (with badges, ASCII diagram, structure, etc.).
-
-Here’s a **solid + creative README** you can directly drop into your repo 👇
+**React UI + Kafka Producer + Kafka Consumer**
 
 ---
 
@@ -65,8 +59,6 @@ npm install
 npm start
 ```
 
-UI will be available at 👉 `http://localhost:5174`
-
 ---
 
 ### 3️⃣ Run Producer Service
@@ -76,7 +68,7 @@ cd producer-service
 ./mvnw spring-boot:run
 ```
 
-Service runs on 👉 `http://localhost:9090`
+Service runs on 👉 `http://localhost:9096`
 
 ---
 
@@ -88,6 +80,8 @@ cd consumer-service
 ```
 
 Consumes from Kafka and persists to DB.
+
+Consumer runs on 👉 `http://localhost:9091`
 
 ---
 
@@ -126,12 +120,6 @@ Consumes from Kafka and persists to DB.
 
 ---
 
-## 📜 License
-
-MIT License – feel free to use and modify.
-
----
-
 ✨ *Happy Event Tracking!* 🚀
 
 ```
@@ -139,6 +127,4 @@ MIT License – feel free to use and modify.
 ---
 
 ⚡ This README is **developer-friendly + visually appealing**, but still lightweight.  
-
-👉 Do you want me to also include **GitHub badges (build status, tech stack logos, license, etc.)** at the top for extra creativity?
 ```
