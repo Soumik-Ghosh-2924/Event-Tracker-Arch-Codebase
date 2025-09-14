@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:9090/api/events"; // <-- change if your Spring Boot uses another port
+const API_URL = "http://localhost:9096/api/events"; 
 
 function sendEvent(eventName, properties = {}) {
   const payload = {
