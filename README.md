@@ -123,8 +123,3 @@ Consumer runs on 👉 `http://localhost:9091`
 ✨ *Happy Event Tracking!* 🚀
 
 ```
-
----
-
-⚡ This README is **developer-friendly + visually appealing**, but still lightweight.  
-```
