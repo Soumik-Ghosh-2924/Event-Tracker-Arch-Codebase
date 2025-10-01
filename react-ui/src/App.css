@@ -1,6 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
   padding: 2rem;
   text-align: center;
 }
@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+/* Navbar & Header */
+.navbar { background: #222; padding: 10px 20px; color: #fff; display: flex; justify-content: space-between; align-items: center; }
+.bar { display: flex; align-items: center; gap: 20px; width: 100%; }
+.searchRow { position: relative; }
+.searchInput { padding: 5px 10px; border-radius: 4px; border: none; width: 200px; }
+.suggestions { position: absolute; top: 35px; background: #333; list-style: none; padding: 5px 0; margin: 0; border-radius: 4px; width: 200px; }
+.suggestions li { padding: 5px 10px; cursor: pointer; }
+.suggestions li:hover { background: #444; }
+.cartBubble { background: red; padding: 2px 6px; border-radius: 50%; font-size: 12px; }
+/* .cartPreview { position: absolute; top: 30px; right: 0; background: #333; padding: 10px; border-radius: 6px; width: 200px; display: flex; flex-direction: column; gap: 5px; } */
+/* .hamburger { display: none; background: none; border: none; font-size: 20px; color: #fff; cursor: pointer; } */
+.mobileMenu { position: absolute; top: 50px; right: 10px; background: #222; padding: 10px; border-radius: 6px; display: flex; flex-direction: column; gap: 10px; }
+
+/* ProductCard */
+.card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.2); transition: transform 0.2s; }
+.card:hover { transform: translateY(-5px); }
+.imgContainer { position: relative; }
+.quickAdd { position: absolute; bottom: 10px; left: 10px; background: #007bff; color: #fff; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; opacity: 0; transition: opacity 0.2s; }
+.imgContainer:hover .quickAdd { opacity: 1; }
+.price { font-weight: bold; color: #333; }
+.viewBtn { text-decoration: none; color: #007bff; font-weight: 600; }
